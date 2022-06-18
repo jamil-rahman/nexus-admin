@@ -1,9 +1,7 @@
-.container{
-    color: red;
-    background-color: aqua;
-
-    p{
-        color: black;
-        font-size: 40px;
+.main_container{
+    display: flex;
+    .home_container{
+        flex: 7;
+        background-color: #42fc;
     }
 }
